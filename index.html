@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Lab1</title>
+    <!-- <link rel="shortcut icon" href="source/images/icons8-галочка.gif" type="image/gif"> -->
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    
+    
+    
+    
+    
+    
+    <table class="main_table" >
+        
+        <tr class="description">
+            <td colspan="3">
+                Выполнил: Мольдон Антон Сергеевич, Группа: P3211, Вариант: 2118
+            </td>
+        </tr>
+        <tr class="large_row">
+            <td class="date_handler">
+                <p>
+                    <h2>Введите значения:</h2>
+                </p>
+                
+                <p>X:
+                    <input type="text" name="X" id="X" placeholder="-5 to 5" >
+                    <p id="validation-message-x" class="valid-message"></p>
+                </p>
+                
+            
+                <p>Y:
+                    <input type="text" name="Y" id ="Y" placeholder="-3 to 3">
+                    <p id="validation-message-y" class="valid-message"></p>
+                </p>
+                <p>
+                    R:
+                    <label>
+                        <input type="checkbox" name="R" value="1"> 1
+                    </label>
+                    <label>
+                        <input type="checkbox" name="R" value="1.5"> 1.5
+                    </label>
+                    <label>
+                        <input type="checkbox" name="R" value="2"> 2
+                    </label>
+                    <label>
+                        <input type="checkbox" name="R" value="2.5"> 2.5
+                    </label>
+                    <label>
+                        <input type="checkbox" name="R" value="3"> 3
+                    </label>
+                    <p id="validation-message-r" class="valid-message"></p>
+
+                </p>
+            
+                <p>
+                    <button id="submit-button">Проверить</button>
+                    <button id="clean-button" >Очистить</button>
+                </p>
+
+            </td>
+        
+            <td class="picture">
+                <img src="График.png" alt="Тут должен быть график" class="graphik">
+            </td>
+        </tr>    
+        
+
+        
+    </table>
+    <table id="result-table">
+            
+        
+        <th >Данные</th>
+        <th >Время выполения запроса</th>
+        <th>Текущее время</th>
+        <th >Результат работы скрипта</th>
+
+        
+        
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
